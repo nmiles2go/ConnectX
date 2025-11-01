@@ -1,0 +1,5 @@
+validation:
+  impute_strategy: median
+  on_missing_required: create_empty_and_log
+  normalize_method: minmax
+  log_invalid_values: true
