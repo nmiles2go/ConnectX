@@ -192,5 +192,5 @@ By helping telecom operators efficiently target high-potential areas, ConnectX c
 
 ### Credits
 
-A huge thanks to the IBM Watsonx team for organizing this hackathon and giving Team Agentylytics (Riya Shetty and Rishikesh Jaiswal) the opportunity to explore the Watsonx platform. This experience allowed us to dive deep into the world of Agentic AI systems, understanding how intelligent agents can be designed, orchestrated, and applied to solve real-world challenges using the Watsonx ecosystem.
+A huge thanks to the IBM Watsonx team for organizing this hackathon and allowing Team Agentylytics (Riya Shetty and Rishikesh Jaiswal (@nmiles2go)) to explore the Watsonx platform. This experience allowed us to dive deep into the world of Agentic AI systems, understanding how intelligent agents can be designed, orchestrated, and applied to solve real-world challenges using the Watsonx ecosystem.
 
