@@ -1,0 +1,23 @@
+scoring:
+  take_rate_weights:
+    complaints: 0.35
+    income: 0.25
+    adoption: 0.25
+    competitors: 0.15
+
+  demand_weights:
+    density: 0.40
+    take_rate: 0.30
+    usage: 0.30
+
+  formulas:
+    take_rate_predicted_pct: >
+      100 * clip(
+        complaints*0.35 + income*0.25 + adoption*0.25 + (1 - competitors*0.15),
+        0, 1
+      )
+    demand_score_0_100: >
+      100 * clip(
+        0.40*density + 0.30*take_rate + 0.30*usage,
+        0, 1
+      )

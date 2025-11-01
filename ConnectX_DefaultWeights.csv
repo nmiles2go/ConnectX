@@ -1,0 +1,8 @@
+category,key,value,notes
+take_rate_weights,complaints,0.35,Normalized complaint_rate_pct
+take_rate_weights,income,0.25,Normalized median_income_usd
+take_rate_weights,adoption,0.25,Normalized broadband_adoption_pct
+take_rate_weights,competitors,0.15,Normalized competitor_fiber_presence
+demand_weights,density,0.40,Normalized population_density_km2
+demand_weights,take_rate,0.30,Normalized take_rate_predicted_pct
+demand_weights,usage,0.30,avg_monthly_data_gb (or adoption) normalized

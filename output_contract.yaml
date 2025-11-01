@@ -1,0 +1,9 @@
+output_contract:
+  description: "Market Demand Agent output structure used by Infra Cost Agent."
+  columns:
+    - region_id
+    - take_rate_predicted_pct
+    - demand_score_0_100
+    - rank_by_demand
+    - notes
+  format: csv_and_json

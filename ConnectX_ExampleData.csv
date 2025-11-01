@@ -1,0 +1,4 @@
+RegionID,Region Name,State,Population,Households,Population Density (km2),Median Income (USD),Education Index,Urban Rural Flag,DSL Coverage (%),Fiber Coverage (%),Avg DSL Speed (Mbps),Avg Fiber Speed (Mbps),Competitor Fiber Presence,Complaint Rate (%),Churn Rate (%),Broadband Adoption (%),Avg Monthly Data (GB),Terrain Slope (degree),Road Density (km2),Existing Node Distance (km),,,,,,,
+REG-001,Region 1,Indiana,45000,18000,220,60000,0.65,Urban,70,20,25,600,1,8,6,80,260,3.5,2.2,4.0,,,,,,,
+REG-002,Region 2,Ohio,90000,36000,480,70000,0.72,Urban,65,30,28,700,2,5,7,85,340,2.1,2.8,3.0,,,,,,,
+REG-003,Region 3,Illinois,30000,12000,120,52000,0.58,Rural,85,10,18,550,0,15,9,60,180,6.8,1.0,7.5,,,,,,,

@@ -1,0 +1,22 @@
+field,type,required,min,max,enum_values,description
+region_id,string,true,,,,Unique region identifier
+region_name,string,false,,,,Human-readable region name
+state,string,false,,,,State or region name
+population,number,false,10000,150000,,Total population
+households,number,false,3000,60000,,Total households
+population_density_km2,number,false,50,800,,People per square km
+median_income_usd,number,false,30000,110000,,Median household income (USD)
+education_index,number,false,0.4,0.9,,Education index (0–1)
+urban_rural_flag,enum,false,,,Urban|Rural,Urban or Rural classification
+dsl_coverage_pct,number,false,40,95,,% covered by DSL
+fiber_coverage_pct,number,false,5,60,,% covered by Fiber
+avg_dsl_speed_mbps,number,false,5,50,,Avg DSL speed (Mbps)
+avg_fiber_speed_mbps,number,false,300,1000,,Avg Fiber speed (Mbps)
+competitor_fiber_presence,integer,false,0,4,,Count of competitor fiber ISPs
+complaint_rate_pct,number,false,2,20,,Customer complaint rate (%)
+churn_rate_pct,number,false,2,15,,Monthly churn rate (%)
+broadband_adoption_pct,number,false,40,95,,% of households with broadband
+avg_monthly_data_gb,number,false,100,600,,Avg monthly data per HH (GB)
+terrain_slope_deg,number,false,0,12,,Average slope (degrees)
+road_density_km_per_km2,number,false,0.5,3.0,,Road km per sq km
+existing_backhaul_distance_km,number,false,0.5,10,,Distance to nearest backhaul (km)

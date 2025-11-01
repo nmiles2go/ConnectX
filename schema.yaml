@@ -1,0 +1,22 @@
+schema:
+  region_id: {type: string, required: true, description: "Unique identifier for each region"}
+  region_name: {type: string, description: "Human-readable name of the region"}
+  state: {type: string, description: "U.S. state or region name"}
+  population: {type: number, min: 10000, max: 150000, description: "Total population in region"}
+  households: {type: number, min: 3000, max: 60000, description: "Total households"}
+  population_density_km2: {type: number, min: 50, max: 800, description: "Population per square km"}
+  median_income_usd: {type: number, min: 30000, max: 110000, description: "Median household income in USD"}
+  education_index: {type: number, min: 0.4, max: 0.9, description: "Index of education (0–1 scale)"}
+  urban_rural_flag: {type: enum, values: [Urban, Rural], description: "Urban or rural classification"}
+  dsl_coverage_pct: {type: number, min: 40, max: 95, description: "% of area covered by DSL"}
+  fiber_coverage_pct: {type: number, min: 5, max: 60, description: "% of area covered by Fiber"}
+  avg_dsl_speed_mbps: {type: number, min: 5, max: 50, description: "Average DSL speed (Mbps)"}
+  avg_fiber_speed_mbps: {type: number, min: 300, max: 1000, description: "Average Fiber speed (Mbps)"}
+  competitor_fiber_presence: {type: integer, min: 0, max: 4, description: "Number of competitor fiber ISPs"}
+  complaint_rate_pct: {type: number, min: 2, max: 20, description: "Customer complaint rate (%)"}
+  churn_rate_pct: {type: number, min: 2, max: 15, description: "Monthly customer churn rate (%)"}
+  broadband_adoption_pct: {type: number, min: 40, max: 95, description: "% of households with broadband"}
+  avg_monthly_data_gb: {type: number, min: 100, max: 600, description: "Average monthly data use per household (GB)"}
+  terrain_slope_deg: {type: number, min: 0, max: 12, description: "Average slope in degrees"}
+  road_density_km_per_km2: {type: number, min: 0.5, max: 3, description: "Road km per sq km"}
+  existing_backhaul_distance_km: {type: number, min: 0.5, max: 10, description: "Distance to nearest fiber backhaul (km)"}

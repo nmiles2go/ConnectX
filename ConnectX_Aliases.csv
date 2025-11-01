@@ -1,0 +1,22 @@
+target_field,alias
+region_id,RegionID
+region_name,Region Name
+state,State
+population,Population
+households,household
+population_density_km2,Population Density (km2)
+median_income_usd,Median Income (USD)
+education_index,Education Index
+urban_rural_flag,Urban Rural Flag
+dsl_coverage_pct,DSL Coverage (%)
+fiber_coverage_pct,Fiber Coverage (%)
+avg_dsl_speed_mbps,Avg DSL Speed (Mbps)
+avg_fiber_speed_mbps,Avg Fiber Speed (Mbps)
+broadband_adoption_pct,Broadband Adoption (%)
+churn_rate_pct,Churn Rate (%)
+complaint_rate_pct,Complaint Rate (%)
+competitor_fiber_presence,Competitor Fiber Presence
+avg_monthly_data_gb,Avg Monthly Data (GB)
+terrain_slope_deg,Terrain Slope (degree)
+road_density_km_per_km2,Road Density (km2)
+existing_backhaul_distance_km,Existing Node Distance (km)
