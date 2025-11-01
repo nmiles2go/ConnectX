@@ -166,6 +166,7 @@ Example Output on the backend:
 
 To make the system interactive, I connected ConnectX to Slack using Watsonx Orchestrate’s Channels feature. Through this integration, users can directly interact with the agents, such as querying take rates, ROI, or project priorities, within a Slack workspace. The connection was configured via the Channels section in Watsonx Orchestrate, where Slack was authorized as a communication endpoint for real-time orchestration.
 
+<img width="892" height="337" alt="Screenshot 2025-11-01 at 6 15 21 PM" src="https://github.com/user-attachments/assets/276784a1-cf2d-475d-9263-3102555548e5" />
 <img width="1920" height="1080" alt="Screenshot 2025-11-01 at 7 33 35 PM" src="https://github.com/user-attachments/assets/f89f90de-4be3-480e-a07e-b8ca182ff4f2" />
 
 ---
